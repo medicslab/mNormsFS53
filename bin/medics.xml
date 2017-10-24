@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+last modification 2017-09-27
+All texts messages and labels in Norms Calculator
+DO NOT REPEAT TAGS
+Use « &#10; » to trow a linefeed.
+-->
+<calculateur>
+    <descriptions>
+        <name>
+            mNormsFS53
+        </name>
+        <title>
+            Normative morphometric data calculator for FreeSurfer 5.3 - Version 1.0
+        </title>
+        <disclaimer>
+The authors take no responsibility for the use of this script or its derivatives.&#10;Not for diagnostic purposes. &#10;
+The use of this script or its derivatives needs to be in agreement with the content of the following publications:&#10;
+Potvin et al. (2017). Normative morphometric data for cerebral cortical areas over the lifetime of the adult human brain. NeuroImage, 156, 315-339.
+Potvin et al. (2017). FreeSurfer cortical normative data for adults using Desikan-Killiany-Tourville and Ex vivo protocols. NeuroImage, 156, 43-64.
+Potvin et al. (2016). Normative data for subcortical regional volumes over the lifetime of the adult human brain. NeuroImage, 137, 9-20.&#10; 
+        </disclaimer>
+        <subjects_dir>
+            The path to the directory containing all the FreeSurfer subjects folders.
+        </subjects_dir>
+        <input_csv>
+CSV file containing subjects id (as in FreeSurfer’s subject directory),&#10;sex (M/F), age, manufacturer (GE/Philips/Siemens), and magnetic field strength (1.5/3).&#10;For an example, see "Example/intrant_example.csv"
+        </input_csv>
+        <output_csv>
+Output path and CSV file name containing the normative values.
+If omitted, the file will be saved in current directory named "results"+"atlas"+"date"+"time". 
+        </output_csv>
+        <volumes>
+            Lab tool.
+        </volumes>
+        <atlas>
+            Choose between Desikan-Killiany (DK) or Desikan-Killiany-Tourville (DKT) atlases.
+        </atlas>
+    </descriptions>
+    <errors_warning>
+        <windows>
+            Microsoft Windows is not support.
+        </windows>
+        <miss>
+            Could not find the Input File. Please check the path.
+        </miss>
+        <notcsv>
+            The Input file does not seem to be a CSV file.
+        </notcsv>
+        <notdir>
+            The path for the subjects directory does not seem to be valid.
+        </notdir>
+        <pascsv>
+            The Output file (results) does not seem to be a CSV file. Default file in current directory will be save.
+        </pascsv>
+        <result>
+            Your file is
+        </result>
+        <same>
+            Warning! Found same structure with a different value.
+        </same>
+        <notdone>
+            Program ended without completing calculations.
+        </notdone>
+        <id>
+            Could not find an id column in your CSV file corresponding to each subject folder.
+        </id>
+        <ids>
+            Could not find an UNIQUE id column in your CSV file corresponding to each subject folder.
+        </ids>
+        <nofolder>
+            Did not find any STATS folders.
+        </nofolder>
+        <none>
+            No column found for
+        </none>
+        <many>
+            More than one column for
+        </many>
+        <wrongCSV>
+            There is a problem with the necessary columns in the CSV. See Instructions.
+        </wrongCSV>
+        <query_yes_no>
+            Do you want to replace the output csv file?
+        </query_yes_no>
+        <nothing>
+            _
+        </nothing>
+        <dont_replace>
+            The results will be save in a default csv file.
+        </dont_replace>
+        <leresult>
+            The results were saved in 
+        </leresult>
+        <output_invalid>
+            The output suggested is not valid for a csv file. Default will be use. 
+        </output_invalid>
+    </errors_warning>
+    <help>
+        I need somebody help
+    </help>
+</calculateur>
