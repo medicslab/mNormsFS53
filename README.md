@@ -1,5 +1,5 @@
 # mNormsFS53
-Normative morphometric data calculator for FreeSurfer 5.3
+--SOURCE CODE FOR PYTHON3--SOURCE CODE FOR PYTHON3--SOURCE CODE FOR PYTHON3--SOURCE CODE FOR PYTHON3--
 #################################### INSTRUCTIONS #####################################
 
 @2017 MEDICS LABORATORY - CERVO RESEARCH CENTER - UNIVERSITE LAVAL
