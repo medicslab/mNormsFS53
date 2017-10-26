@@ -1,5 +1,5 @@
 # mNormsFS53
----- SOURCE CODE FOR PYTHON 3 ---- SEE BRANCHES FOR OTHER VERSIONS ----
+---- SOURCE CODE FOR PYTHON 2 ---- SEE BRANCHES FOR OTHER VERSIONS ----
 
 #################################### INSTRUCTIONS #####################################
 
